@@ -1,0 +1,2 @@
+# Ignore the .streamlit folder which contains secrets
+.streamlit/
