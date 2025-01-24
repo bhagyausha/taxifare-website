@@ -3,7 +3,8 @@ import requests
 import pandas as pd
 from datetime import datetime
 import pydeck as pdk
-
+spell = st.secrets['spell']
+key = st.secrets.some_magic_api.key
 # Title for the web page
 st.title("Taxi Fare Prediction")
 
